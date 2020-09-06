@@ -20,8 +20,8 @@ gem 'middleman-autoprefixer'
 gem "middleman-livereload", "~> 3.4"
 
 group :test do
-  gem 'cucumber'
+  gem 'cucumber', '>= 4.0.0'
   gem 'capybara'
-  gem 'aruba'
+  gem 'aruba', '>= 0.14.2'
   gem 'rspec'
 end
