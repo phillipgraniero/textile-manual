@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'rake'
-gem 'rdoc'
+gem 'rdoc', '>= 6.3.1'
 gem 'yard'
 gem "middleman", "~>4.2.1"
 gem "middleman-sprockets", "~> 4.0.0.rc"
